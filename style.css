@@ -1,0 +1,69 @@
+/* IMPORTEI A FONTE DA MINHA PÁGINA */
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.mae{
+    width: 100vw;
+    height: 100vh;
+    background: #df4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filho{
+    background: rgb(196, 92, 92);
+    height: 50%;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 10px 20px 10px #00000056;
+}
+
+.box{
+    height: 25%;
+    width: 70%;
+}
+
+.box input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.box label{
+    padding: 10px;
+}
+
+.button-box{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-box button{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-box button:hover{
+    color: rgb(196, 92, 92);
+}
